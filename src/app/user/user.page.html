@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>user</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card *ngIf="data !== undefined">
+  <ion-card-header>
+    <ion-card-title>{{data.name}}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-img src="{{data.picture}}"></ion-img>
+    <ion-card-subtitle>{{data.email}}</ion-card-subtitle>
+  </ion-card-content>
+</ion-card>
+</ion-content>

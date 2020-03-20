@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Login with Facebook</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-button class="bg-success" (click)="this.authService.facebook()">
+            <ion-icon name="logo-facebook">Facebook</ion-icon></ion-button>
+        </ion-card-content>
+        <ion-card-content>
+          <ion-button class="bg-success" (click)="this.authService.googleLogin()">
+            <ion-icon name="logo-google">Google</ion-icon></ion-button>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</div>
